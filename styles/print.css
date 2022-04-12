@@ -1,0 +1,8 @@
+@media print {
+    .noprint {
+       display: none!important;
+    }
+    html, body{
+        font-size: 10pt;
+    }
+}

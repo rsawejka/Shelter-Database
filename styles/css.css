@@ -1,0 +1,103 @@
+
+.svgLogoHeader{
+    height: 5%;
+    width: 5%;
+}
+.imgClass{
+    height: 50%;
+    width: 100%;
+}
+.textF8F4E3{
+    color: #F8F4E3!important;
+}
+.navColor{
+    background-color: #198754!important;
+}
+nav div div ul li a {
+    color:  #F8F4E3!important;
+}
+.adminBar{
+
+    background-color: #373F51!important;
+}
+.actionHoverMain:hover{
+    color: #875419!important;
+}
+.actionHoverMain a:hover{
+    color: #875419!important;
+}
+.svgLogoHeader svg{
+    fill: #F8F4E3;
+
+}
+.bg-198754{
+    background-color: #198754;
+}
+.accordion-button::after{
+    color: white;
+}
+
+input[type=submit]{
+background-color: #198387;
+}
+.aToButton{
+    background-color: #198387!important;
+}
+.error{
+    color: red;
+}
+#loginPage{
+    background-color: #198754!important;
+}
+#adoptorDiv{
+    background-color: #198387!important;
+    color: #F8F4E3!important;
+}
+#adoptorDiv input[type=submit]{
+    background-color: #198754!important;
+}
+#adoptorDiv a{
+    text-decoration: none;
+    color: #F8F4E3!important;
+}
+#adoptorDiv a:hover{
+    text-decoration: underline;
+    color: #875419!important;
+}
+#customBorder{
+    border-color: #198387!important;
+}
+#footer nav{
+    background-color: #198387!important;
+}
+#footer{
+
+    height:auto;
+
+    background-color: #198754!important;
+}
+#footer div{
+
+    color: #F8F4E3!important;
+}
+#footerText{
+    margin-top: 15px;
+}
+#realMain{
+    min-height: 600px;
+}
+.formUnderline{
+    border-bottom: 1px solid black;
+    width: 100px;
+}
+.spanPadding{
+    padding-right: 8px;
+}
+.box{
+    height: 20px;
+    width: 20px;
+    border: 1px solid black;
+}
+.examMargins{
+    margin-left: 8px;
+}
