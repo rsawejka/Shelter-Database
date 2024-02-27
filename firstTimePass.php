@@ -1,4 +1,5 @@
 <?php
+ob_start();
 $pageTitle = "reset pass";
 include 'includes/header.php';
 $hashedPass = $_GET['newPass'];
@@ -32,6 +33,7 @@ if (!empty($passInputOne) && !empty($passInputTwo) && $passBool1 == true && $pas
 
 // if record was updated correctly
         if (mysqli_affected_rows($db)) {
+            
             $newTimesLogged = 1;
             // redirect back to the city page
             header('Location: homePage.php?id=' . $newTimesLogged . '');

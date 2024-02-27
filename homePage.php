@@ -9,11 +9,12 @@ echo "</div>";
 //include 'includes/trackTimesLogged.php';
 if (empty($_SESSION['users']['email'])){
     header('Location: index.php');
+    echo "not logged";
     die();
 }else{
 
     if(empty($_GET['id'])){
-        echo "";
+        echo "nott logged";
     }else{
         $personId = $_SESSION['users']['id'];
         $id = $_GET['id'];
