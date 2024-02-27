@@ -8,6 +8,7 @@ include 'includes/header.php';
 <ul>
     <li>username: public@gmail.com</li>
     <li>password: NewPassword123!</li>
+    <li>password: NewPassword123!</li>
 </ul>
 <?php
 
